@@ -9,7 +9,7 @@
 	<version>1.0-SNAPSHOT</version>
 	<name>SpringSecurity LoginForm Database</name>
 	<url>http://www.mkyong.com/tutorials/spring-security-tutorials/</url>
-
+    
 	<licenses>
 		<license>
 			<name>The Apache Software License, Version 2.0</name>
@@ -30,6 +30,7 @@
 		<spring.security.version>3.2.3.RELEASE</spring.security.version>
 		<jstl.version>1.2</jstl.version>
 		<mysql.connector.version>5.1.30</mysql.connector.version>
+		<failOnMissingWebXml>false</failOnMissingWebXml>   
 	</properties>
 
 	<dependencies>
