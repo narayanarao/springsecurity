@@ -23,13 +23,10 @@ pipeline {
            }
          }
       }
-      stage('Checkout external proj') {
-        steps {
-            git branch: 'master',
-                credentialsId: 'narayanarao429@gmail.com',
-                url: 'https://github.com/narayanarao/springsecurity.git'
-            sh "ls -lat"
-        }
-    }
+      stage ("Checkout") {
+    		git branch: 'master',
+      		credentialsId: 'narayanarao429@gmail.com',
+      		url: 'https://github.com/narayanarao/springsecurity.git'
+  		}
    }
 }
